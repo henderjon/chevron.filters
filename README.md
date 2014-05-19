@@ -17,7 +17,12 @@ If there isn't an examples dir, look through the tests.
 
 # installation
 
-Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-filters": "1.*" }`
+Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-filters": "2.*" }`
+
+# where is version 1.*?
+
+Packagist (an important component to the composer ecosystem) prefers dashes as separators (I was
+using dots). I had to update all the package names accordingly.
 
 # license
 
