@@ -1,5 +1,5 @@
 {
-	"name"        : "henderjon/chevron.filters",
+	"name"        : "henderjon/chevron-filters",
 	"type"        : "library",
 	"description" : "system for filtering either scalar values or arrays of values",
 	"homepage"    : "http://github.com/henderjon/chevron.filters",
