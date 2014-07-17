@@ -20,8 +20,8 @@ trait FilterEntitiesTrait {
 
 	/**
 	 * method to entity-ize the values in an array
-	 * @param string $value The value
-	 * @return string
+	 * @param array $map The array to filter
+	 * @return array
 	 */
 	function filterArray(array $map){
 		array_walk_recursive($map, function(&$value){

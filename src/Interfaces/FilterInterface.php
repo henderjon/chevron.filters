@@ -11,6 +11,7 @@ interface FilterInterface {
 	/**
 	 * method to take a scalar value and do something to it
 	 * @param scalar $value The value to alter
+	 * @return string|null
 	 */
 	function filter($value);
 

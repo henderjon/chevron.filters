@@ -13,7 +13,7 @@ trait FilterControlCharactersTrait {
 	 * This will recurse deeper into arrays
 	 *
 	 * @param mixed $value The value to sanitize
-	 * @return mixed
+	 * @return string
 	 */
 	function filter($value){
 		return strtr($value, "\x00\x07\x08\x09\x0B\x0C\x0D\x1A", "\x20\x20\x20\x20\x20\x20\x20\x20");
