@@ -1,9 +1,6 @@
 # chevron.filters
 
-Chevron aims to be a 'simple set of useful tools'. This means that it
-exists as a humble collection of code I've written and found quite useful.
-
-Chevron.filters is a system to write, instantiate, and/or mix-in functions for
+Filters is a system to write, instantiate, and/or mix-in functions for
 filtering either scalar values or arrays of values. The two provided are meant
 to be common, but the system itself is meant to be quite extensible.
 
@@ -17,12 +14,7 @@ If there isn't an examples dir, look through the tests.
 
 # installation
 
-Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-filters": "2.*" }`
-
-# where is version 1.*?
-
-Packagist (an important component to the composer ecosystem) prefers dashes as separators (I was
-using dots). I had to update all the package names accordingly.
+Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-filters": "~2.0" }`
 
 # license
 
@@ -32,7 +24,13 @@ See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Claus
 
   - The [Packagist archive](https://packagist.org/packages/henderjon/chevron-filters)
   - Reading on [Semantic Versioning](http://semver.org/)
-  - Reading on[Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
+  - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
+
+## cool kids badges
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/build.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/?branch=master)
 
 
 
