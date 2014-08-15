@@ -8,35 +8,12 @@ There is the issue of using two or more of these filters as traits in the same
 class. The implementing class must resolve the conflicting method names. This
 is inconvenient but expected with trait usage.
 
-# usage
+Peruse the tests or, if present, the examples directory to see usage.
 
-If there isn't an examples dir, look through the tests.
+See [packagist](https://packagist.org/packages/henderjon/chevron-filters) for version/installation info. At the moment, I recommend using `~2.0`.
 
-# installation
-
-Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-filters": "~2.0" }`
-
-# license
-
-See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause) license.
-
-## links
-
-  - The [Packagist archive](https://packagist.org/packages/henderjon/chevron-filters)
-  - Reading on [Semantic Versioning](http://semver.org/)
-  - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
-
-### cool kids badges
-
-#### travis
-
+[![Latest Stable Version](https://poser.pugx.org/henderjon/chevron-filters/v/stable.svg)](https://packagist.org/packages/henderjon/chevron-filters)
 [![Build Status](https://travis-ci.org/henderjon/chevron.filters.svg?branch=master)](https://travis-ci.org/henderjon/chevron.filters)
-
-#### scruitinizer
-
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/build.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/build-status/master)
-[![Code Coverage](https://scrutinizer-ci.com/g/henderjon/chevron.filters/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.filters/?branch=master)
 
 
 
